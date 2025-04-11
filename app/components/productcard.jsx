@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from "react";
 import { twMerge } from "tailwind-merge";
-import mockProduct from '.mockProduct';
+import mockProduct from '../lib/mockproduct';
 import { FaEye, FaCartArrowDown } from 'react-icons/fa';
 import QuickViewPopup from './QuickViewPopup';
 
